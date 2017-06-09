@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D287EFDF1EEA6BB000760869 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D287EFDE1EEA6BB000760869 /* AppDelegate.swift */; };
+		D287EFE11EEA6BB000760869 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D287EFE01EEA6BB000760869 /* ViewController.swift */; };
+		D287EFE41EEA6BB000760869 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D287EFE21EEA6BB000760869 /* Main.storyboard */; };
+		D287EFE61EEA6BB000760869 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D287EFE51EEA6BB000760869 /* Assets.xcassets */; };
+		D287EFE91EEA6BB000760869 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D287EFE71EEA6BB000760869 /* LaunchScreen.storyboard */; };
+		D287EFF41EEA6BB100760869 /* GoodAnimatonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D287EFF31EEA6BB100760869 /* GoodAnimatonUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D287EFF01EEA6BB100760869 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D287EFD31EEA6BB000760869 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D287EFDA1EEA6BB000760869;
+			remoteInfo = GoodAnimaton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D287EFDB1EEA6BB000760869 /* GoodAnimaton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoodAnimaton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D287EFDE1EEA6BB000760869 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D287EFE01EEA6BB000760869 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D287EFE31EEA6BB000760869 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D287EFE51EEA6BB000760869 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D287EFE81EEA6BB000760869 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D287EFEA1EEA6BB000760869 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D287EFEF1EEA6BB100760869 /* GoodAnimatonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoodAnimatonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D287EFF31EEA6BB100760869 /* GoodAnimatonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodAnimatonUITests.swift; sourceTree = "<group>"; };
+		D287EFF51EEA6BB100760869 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D287EFD81EEA6BB000760869 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D287EFEC1EEA6BB100760869 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D287EFD21EEA6BB000760869 = {
+			isa = PBXGroup;
+			children = (
+				D287EFDD1EEA6BB000760869 /* GoodAnimaton */,
+				D287EFF21EEA6BB100760869 /* GoodAnimatonUITests */,
+				D287EFDC1EEA6BB000760869 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D287EFDC1EEA6BB000760869 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D287EFDB1EEA6BB000760869 /* GoodAnimaton.app */,
+				D287EFEF1EEA6BB100760869 /* GoodAnimatonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D287EFDD1EEA6BB000760869 /* GoodAnimaton */ = {
+			isa = PBXGroup;
+			children = (
+				D287EFDE1EEA6BB000760869 /* AppDelegate.swift */,
+				D287EFE01EEA6BB000760869 /* ViewController.swift */,
+				D287EFE21EEA6BB000760869 /* Main.storyboard */,
+				D287EFE51EEA6BB000760869 /* Assets.xcassets */,
+				D287EFE71EEA6BB000760869 /* LaunchScreen.storyboard */,
+				D287EFEA1EEA6BB000760869 /* Info.plist */,
+			);
+			path = GoodAnimaton;
+			sourceTree = "<group>";
+		};
+		D287EFF21EEA6BB100760869 /* GoodAnimatonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D287EFF31EEA6BB100760869 /* GoodAnimatonUITests.swift */,
+				D287EFF51EEA6BB100760869 /* Info.plist */,
+			);
+			path = GoodAnimatonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D287EFDA1EEA6BB000760869 /* GoodAnimaton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D287EFF81EEA6BB100760869 /* Build configuration list for PBXNativeTarget "GoodAnimaton" */;
+			buildPhases = (
+				D287EFD71EEA6BB000760869 /* Sources */,
+				D287EFD81EEA6BB000760869 /* Frameworks */,
+				D287EFD91EEA6BB000760869 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoodAnimaton;
+			productName = GoodAnimaton;
+			productReference = D287EFDB1EEA6BB000760869 /* GoodAnimaton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D287EFEE1EEA6BB100760869 /* GoodAnimatonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D287EFFB1EEA6BB100760869 /* Build configuration list for PBXNativeTarget "GoodAnimatonUITests" */;
+			buildPhases = (
+				D287EFEB1EEA6BB100760869 /* Sources */,
+				D287EFEC1EEA6BB100760869 /* Frameworks */,
+				D287EFED1EEA6BB100760869 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D287EFF11EEA6BB100760869 /* PBXTargetDependency */,
+			);
+			name = GoodAnimatonUITests;
+			productName = GoodAnimatonUITests;
+			productReference = D287EFEF1EEA6BB100760869 /* GoodAnimatonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D287EFD31EEA6BB000760869 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "邢浩";
+				TargetAttributes = {
+					D287EFDA1EEA6BB000760869 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = PDRSADE88S;
+						ProvisioningStyle = Automatic;
+					};
+					D287EFEE1EEA6BB100760869 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = PDRSADE88S;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D287EFDA1EEA6BB000760869;
+					};
+				};
+			};
+			buildConfigurationList = D287EFD61EEA6BB000760869 /* Build configuration list for PBXProject "GoodAnimaton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D287EFD21EEA6BB000760869;
+			productRefGroup = D287EFDC1EEA6BB000760869 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D287EFDA1EEA6BB000760869 /* GoodAnimaton */,
+				D287EFEE1EEA6BB100760869 /* GoodAnimatonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D287EFD91EEA6BB000760869 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D287EFE91EEA6BB000760869 /* LaunchScreen.storyboard in Resources */,
+				D287EFE61EEA6BB000760869 /* Assets.xcassets in Resources */,
+				D287EFE41EEA6BB000760869 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D287EFED1EEA6BB100760869 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D287EFD71EEA6BB000760869 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D287EFE11EEA6BB000760869 /* ViewController.swift in Sources */,
+				D287EFDF1EEA6BB000760869 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D287EFEB1EEA6BB100760869 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D287EFF41EEA6BB100760869 /* GoodAnimatonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D287EFF11EEA6BB100760869 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D287EFDA1EEA6BB000760869 /* GoodAnimaton */;
+			targetProxy = D287EFF01EEA6BB100760869 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D287EFE21EEA6BB000760869 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D287EFE31EEA6BB000760869 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D287EFE71EEA6BB000760869 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D287EFE81EEA6BB000760869 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D287EFF61EEA6BB100760869 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D287EFF71EEA6BB100760869 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D287EFF91EEA6BB100760869 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PDRSADE88S;
+				INFOPLIST_FILE = GoodAnimaton/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = XH.GoodAnimaton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D287EFFA1EEA6BB100760869 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PDRSADE88S;
+				INFOPLIST_FILE = GoodAnimaton/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = XH.GoodAnimaton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		D287EFFC1EEA6BB100760869 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = PDRSADE88S;
+				INFOPLIST_FILE = GoodAnimatonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = XH.GoodAnimatonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = GoodAnimaton;
+			};
+			name = Debug;
+		};
+		D287EFFD1EEA6BB100760869 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = PDRSADE88S;
+				INFOPLIST_FILE = GoodAnimatonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = XH.GoodAnimatonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = GoodAnimaton;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D287EFD61EEA6BB000760869 /* Build configuration list for PBXProject "GoodAnimaton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D287EFF61EEA6BB100760869 /* Debug */,
+				D287EFF71EEA6BB100760869 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D287EFF81EEA6BB100760869 /* Build configuration list for PBXNativeTarget "GoodAnimaton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D287EFF91EEA6BB100760869 /* Debug */,
+				D287EFFA1EEA6BB100760869 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D287EFFB1EEA6BB100760869 /* Build configuration list for PBXNativeTarget "GoodAnimatonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D287EFFC1EEA6BB100760869 /* Debug */,
+				D287EFFD1EEA6BB100760869 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D287EFD31EEA6BB000760869 /* Project object */;
+}
