@@ -14,17 +14,17 @@ class BangView: UIView {
     
     open var particleImg: UIImage? {
         willSet{
-            explosionCell?.contents = particleImg?.cgImage;
+            explosionCell?.contents = particleImg?.cgImage ?? UIImage(named: "scale")?.cgImage;
         }
     }
     open var particleScale: CGFloat? {
         willSet {
-            explosionCell?.scale = particleScale ?? 0;
+            explosionCell?.scale = particleScale ?? 0.05;
         }
     }
     open var particleScaleRange: CGFloat? {
         willSet {
-            explosionCell?.scaleRange = particleScaleRange ?? 0;
+            explosionCell?.scaleRange = particleScaleRange ?? 0.02;
         }
     }
     
@@ -71,9 +71,9 @@ class BangView: UIView {
         explosionLayer?.name = "emitterLayer";
         explosionLayer?.emitterShape = kCAEmitterLayerCircle;
         explosionLayer?.emitterMode = kCAEmitterLayerOutline;
+        explosionLayer?.renderMode = kCAEmitterLayerOldestFirst;
         explosionLayer?.emitterSize = CGSize(width: 25, height: 0);
         explosionLayer?.emitterCells = [explosionCell!];
-        explosionLayer?.renderMode = kCAEmitterLayerOldestFirst;
         explosionLayer?.masksToBounds = false;
         self.layer.addSublayer(explosionLayer!);
         
